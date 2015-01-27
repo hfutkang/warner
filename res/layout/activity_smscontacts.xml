@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sctek.warner.ui.SmscontactsActivity" >
+        
+    <Button 
+			android:id="@+id/sms_add_bt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_margin="0dp"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/image_button_selector"
+			android:text="@string/save"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:textSize="@dimen/dp20"
+			android:onClick="onSaveButtonClicked"/>
+
+    <ListView 
+        android:id="@+id/sms_contacts_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>

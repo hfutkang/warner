@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">警报器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="contacts">联系人</string>
+    <string name="start_listen_warning">开启警报监听</string>
+    <string name="stop_listen_warning">关闭警报监听</string>
+    <string name="stop_warning">停止报警</string>
+    <string name="title_activity_smscontacts">联系人</string>
+    <string name="save">保存</string>
+    <string name="dial">拨号</string>
+    <string name="sms">短信</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
